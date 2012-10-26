@@ -1,0 +1,1 @@
+Ember.TEMPLATES["signup-form"] = require("./templates/signup-form.hb");
