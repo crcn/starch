@@ -1,0 +1,15 @@
+{
+  "name": "starch",
+  "version": "0.0.0",
+  "description": "starch ======",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://crcn:KQ3Lz6ca@github.com/crcn/starch.git"
+  },
+  "author": "",
+  "license": "BSD"
+}
