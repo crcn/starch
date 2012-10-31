@@ -23,17 +23,11 @@ exports.start = function(core, options) {
 		res.render("index");
 	});
 
-
-	server.all("/stripe/event", function(req, res) {
-		console.log(req.body);
-
-		//core.payments.emit(req)
-		res.end();
-	});
-
 	server.post("/payment", function(req, res) {
 
 		var body = req.body;
+
+		console.log("SIGNUP!");
 
 		//core.users.signup(body, function(err, result) {
 
