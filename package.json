@@ -11,5 +11,35 @@
     "url": "https://crcn:KQ3Lz6ca@github.com/crcn/starch.git"
   },
   "author": "",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "beanpoll-connect": "0.0.x",
+    "moment": "1.7.x",
+    "outcome": "0.0.x",
+    "plugin-express": "0.0.x",
+    "sift": "0.0.x",
+    "sprintf": "0.1.x",
+    "step": "0.0.x",
+    "stripe": "1.2.x",
+    "structr": "0.2.x",
+    "underscore": "1.4.x",
+    "validator": "0.4.x",
+    "dials": "0.0.x",
+    "jade": "0.27.x",
+    "plugin": "0.2.x",
+    "structr-step": "0.0.x",
+    "stylus": "0.30.x",
+    "winston": "0.6.x",
+    "optimist": "0.3.x",
+    "beanpoll": "0.2.x",
+    "browserify": "1.16.x",
+    "dnode": "1.0.x",
+    "mongoose": "3.3.x",
+    "verify": "0.0.x",
+    "express": "3.0.x",
+    "plugin-mongodb": "0.0.x",
+    "auth": "0.0.x",
+    "browserify-files": "0.0.x",
+    "beanie": "0.1.x"
+  }
 }
