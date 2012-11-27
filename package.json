@@ -41,5 +41,6 @@
     "auth": "0.0.x",
     "browserify-files": "0.0.x",
     "beanie": "0.1.x"
-  }
+  },
+  "browserify": "./browser/index.js"
 }
