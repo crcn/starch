@@ -1,0 +1,28 @@
+<% if(typeof error != "undefined") { %>
+	<%-error.message %>
+<% } %>
+
+<form action="#" method="POST" id="payment-form">
+  <div class="form-row">
+    <label>Card Number</label>
+    <input type="text" size="20" autocomplete="off" class="card-number" value="4242424242424242" />
+  </div>
+  <div class="form-row">
+    <label>CVC</label>
+    <input type="text" size="4" autocomplete="off" class="card-cvc" value="999" />
+  </div>
+  <div class="form-row">
+    <label>Expiration (MM/YYYY)</label>
+    <input type="text" size="2" class="card-expiry-month" value="04" />
+    <span> / </span>
+    <input type="text" size="4" class="card-expiry-year" value="2020" />
+  </div>
+  <div class="form-row">
+  	<select name="plan">
+  	<% plans.forEach(function(plan) { %>
+  		<option value="<%-plan.id%>"><%-plan.name %> - $<%-plan.amount/100 %></option>
+  	<% }); %>
+  	</select>
+  </div>
+  <button type="submit" class="submit-button">Submit Payment</button>
+</form>
