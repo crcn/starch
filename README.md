@@ -1,5 +1,11 @@
 ## Stripe payment module for your SaaS!
 
+## Features
+
+- Completely manages credits & stripe payments.
+- Built-in reward system for users:
+	- give rewards for referrals (credits)
+	- give rewards for early adopters
 
 ### Requirements
 
