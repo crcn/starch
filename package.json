@@ -44,7 +44,9 @@
     "crc32": "0.2.x",
     "cron": "1.0.x",
     "domready": "0.2.x",
-    "vine": "0.0.x"
+    "vine": "0.0.x",
+    "dustjs-linkedin": "1.1.x",
+    "seq": "0.3.x"
   },
   "browserify": "./browser/index.js"
 }
