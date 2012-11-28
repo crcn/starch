@@ -40,7 +40,11 @@
     "plugin-mongodb": "0.0.x",
     "auth": "0.0.x",
     "browserify-files": "0.0.x",
-    "beanie": "0.1.x"
+    "beanie": "0.1.x",
+    "crc32": "0.2.x",
+    "cron": "1.0.x",
+    "domready": "0.2.x",
+    "vine": "0.0.x"
   },
   "browserify": "./browser/index.js"
 }
