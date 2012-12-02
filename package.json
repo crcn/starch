@@ -1,6 +1,6 @@
 {
   "name": "starch",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "starch ======",
   "main": "./lib/index.js",
   "scripts": {
@@ -46,7 +46,8 @@
     "domready": "0.2.x",
     "vine": "0.0.x",
     "dustjs-linkedin": "1.1.x",
-    "seq": "0.3.x"
+    "seq": "0.3.x",
+    "httperrors": "0.2.x"
   },
   "browserify": "./browser/index.js"
 }
