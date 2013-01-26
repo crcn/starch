@@ -9,7 +9,7 @@
 
 ### Requirements
 
-- [plugin.js](crcn/plugin.js) - plugin system for node
+- [plugin.js](https://github.com/crcn/plugin.js) - plugin system for node
 - [backbone.js](http://backbonejs.org/) - used for the front-end
 - [underscore.js](http://underscorejs.org/) - needed for backbone
 
