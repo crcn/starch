@@ -1,0 +1,14 @@
+all: node web common
+
+clean: 
+	rm -rf ./lib
+
+
+node:
+	mesh make node 
+
+web:
+	mesh make web 
+
+common:
+	mesh make common 

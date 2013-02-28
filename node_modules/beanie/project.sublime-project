@@ -1,0 +1,23 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","beanie"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","beanie"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","beanie"]
+		}
+	]
+}
